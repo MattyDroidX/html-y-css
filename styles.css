@@ -1,3 +1,77 @@
-h1 {
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* h1 {
   color: #f00;
+}
+
+.persona {
+  background-color: #00f;
+}
+
+.persona:hover {
+  background-color: #00a;
+}
+
+.persona:active,
+button {
+  transform: scale(0.97);
+} */
+
+/* a {
+  /* padding: 14px; */
+/* margin: 50px 14px; */
+
+.header {
+  padding: 30px 30px;
+  background-color: rgb(11, 60, 104);
+  color: #eee;
+}
+
+.link {
+  color: #eee;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #888;
+}
+
+.header-title,
+.links {
+  display: inline-block;
+}
+
+.header-title {
+  width: 70%;
+}
+
+.subtitle {
+  margin: 20px 0;
+  color: rgb(11, 60, 104);
+}
+
+.main {
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.home-main {
+}
+
+.mayusculas {
+  text-transform: capitalize;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }
